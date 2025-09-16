@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                libaccountsservice-dev,
-               libadwaita-1-dev,
+               libadwaita-1-dev (>= 1.3),
                libglib2.0-dev (>= 2.74),
                libgnome-desktop-4-dev,
                libgranite-7-dev,
