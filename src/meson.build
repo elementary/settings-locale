@@ -36,6 +36,7 @@ shared_module(
         dependency('granite-7'),
         dependency('gtk4'),
         dependency('ibus-1.0'),
+        dependency('libadwaita-1', version: '>=1.3'), # Adw.Banner
         adw_dep,
         polkit_dep,
         switchboard_dep,
