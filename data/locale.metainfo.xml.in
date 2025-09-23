@@ -12,13 +12,13 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-locale/8.0.2/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-locale/8.0.2/data/screenshot.png</image>
     </screenshot>
   </screenshots>
 
-  <url type="bugtracker">https://github.com/elementary/switchboard-plug-locale/issues</url>
+  <url type="bugtracker">https://github.com/elementary/settings-locale/issues</url>
   <url type="donation">https://elementary.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/switchboard-plug-locale/discussions</url>
+  <url type="help">https://github.com/elementary/settings-locale/discussions</url>
   <url type="homepage">https://elementary.io/</url>
   <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
 
@@ -50,7 +50,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/221">element does not follow accent color</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/221">element does not follow accent color</issue>
       </issues>
     </release>
     
@@ -65,12 +65,12 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/15">"Chinese" language listed in the list not displayed in Chinese characters</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/70">Formats dropdown is slow to navigate</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/81">Setting default temperature units depending on locale</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/112">Throw an error dialog when an installation of language failed</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/200">Font missing after uninstalling language</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-locale/issues/204">Clicking on plug while authentication dialog open results in persistent "Not responding" warning</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/15">"Chinese" language listed in the list not displayed in Chinese characters</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/70">Formats dropdown is slow to navigate</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/81">Setting default temperature units depending on locale</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/112">Throw an error dialog when an installation of language failed</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/200">Font missing after uninstalling language</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/204">Clicking on plug while authentication dialog open results in persistent "Not responding" warning</issue>
       </issues>
     </release>
 
