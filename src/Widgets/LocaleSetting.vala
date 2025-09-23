@@ -121,9 +121,11 @@ namespace SwitchboardPlugLocale.Widgets {
             missing_lang_infobar = new Adw.Banner (_("Language support is not installed completely")) {
                 button_label = _("Complete Installation")
             };
+            missing_lang_infobar.add_css_class (Granite.STYLE_CLASS_FRAME);
             missing_lang_infobar.add_css_class ("infobar-margin");
 
             restart_infobar = new Adw.Banner (_("Some changes will not take effect until you log out"));
+            restart_infobar.add_css_class (Granite.STYLE_CLASS_FRAME);
             restart_infobar.add_css_class ("infobar-margin");
 
             var content_box = new Gtk.Box (VERTICAL, 0);
