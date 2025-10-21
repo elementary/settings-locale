@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-21 19:08+0000\n"
-"PO-Revision-Date: 2025-10-21 18:24+0000\n"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "locale-plug-extra/sv/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: data/locale.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Manage locale settings"
 msgid "Language &amp; Region Settings"
-msgstr "Hantera lokaliseringsinställningar"
+msgstr "Språk och regionsinställningar"
 
 #: data/locale.metainfo.xml.in:11
 msgid "Manage languages, and configure region and format"
@@ -35,11 +33,11 @@ msgstr "elementary, Inc."
 
 #: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:44
 msgid "Minor improvements:"
-msgstr ""
+msgstr "Mindre förbättringar:"
 
 #: data/locale.metainfo.xml.in:36
 msgid "More responsive design layout"
-msgstr ""
+msgstr "Mer responsiv design och layout"
 
 #: data/locale.metainfo.xml.in:37 data/locale.metainfo.xml.in:49
 #: data/locale.metainfo.xml.in:64 data/locale.metainfo.xml.in:117
@@ -48,11 +46,11 @@ msgstr "Uppdaterade översättningar"
 
 #: data/locale.metainfo.xml.in:46
 msgid "Selected language checkmark now follows system accent color"
-msgstr ""
+msgstr "Markeringen för valt språk följer nu systemets accentfärg"
 
 #: data/locale.metainfo.xml.in:47
 msgid "Sidebar position is now remembered"
-msgstr ""
+msgstr "Sidofältets position är nu ihågkommen"
 
 #: data/locale.metainfo.xml.in:48
 msgid "Performance improvements"
@@ -60,19 +58,21 @@ msgstr "Förbättringar av prestanda"
 
 #: data/locale.metainfo.xml.in:59
 msgid "A big redesign!"
-msgstr ""
+msgstr "En stor omdesign!"
 
 #: data/locale.metainfo.xml.in:61
 msgid "Prevent fcitx5 packages from being installed"
-msgstr ""
+msgstr "Förhindra att fcitx5-paket installeras"
 
 #: data/locale.metainfo.xml.in:62
 msgid "Add links to other places locale-related settings are managed"
 msgstr ""
+"Lägg till länkar till andra platser där lokalrelaterade inställningar "
+"hanteras"
 
 #: data/locale.metainfo.xml.in:63
 msgid "Improve screen reader accessibility"
-msgstr ""
+msgstr "Förbättra tillgängligheten för skärmläsare"
 
 #: data/locale.metainfo.xml.in:79 data/locale.metainfo.xml.in:92
 #: data/locale.metainfo.xml.in:101 data/locale.metainfo.xml.in:110
@@ -81,29 +81,31 @@ msgstr "Åtgärdar:"
 
 #: data/locale.metainfo.xml.in:81
 msgid "Translate authentication dialog description text"
-msgstr ""
+msgstr "Översätt beskrivningstext för autentiseringsdialog"
 
 #: data/locale.metainfo.xml.in:88
 msgid "Improvements:"
-msgstr ""
+msgstr "Förbättringar:"
 
 #: data/locale.metainfo.xml.in:90
 msgid "Central Kurdish is now available as an installable language"
-msgstr ""
+msgstr "Central kurdiska finns nu som installerbart språk"
 
 #: data/locale.metainfo.xml.in:94
 msgid "Support installation and removal of languages with 3-letter codes"
-msgstr ""
+msgstr "Stöd för installation och borttagning av språk med koder på 3 bokstäver"
 
 #: data/locale.metainfo.xml.in:103
 msgid ""
 "Ensure \"Formats\" dropdown remains correct after installing or removing "
 "languages"
 msgstr ""
+"Se till att rullgardinsmenyn \"Format\" förblir korrekt efter installation "
+"eller borttagning av språk"
 
 #: data/locale.metainfo.xml.in:112
 msgid "Support locales with 3-letter codes"
-msgstr ""
+msgstr "Stöd för lokala språk med koder på 3 bokstäver"
 
 #: data/locale.metainfo.xml.in:114
 msgid "Minor updates:"
@@ -111,7 +113,7 @@ msgstr "Mindre uppdateringar:"
 
 #: data/locale.metainfo.xml.in:116
 msgid "Better support for non-Ubuntu based distributions"
-msgstr ""
+msgstr "Bättre stöd för icke-Ubuntu-baserade distributioner"
 
 #: data/locale.policy.in:10
 msgid "Manage locale settings"
