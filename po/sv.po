@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-21 19:08+0000\n"
-"PO-Revision-Date: 2025-02-11 19:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-locale/sv/>\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
+"locale/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-12-06 05:26+0000\n"
 
 #: src/Plug.vala:30
@@ -59,20 +59,17 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #: src/Widgets/InstallDialog.vala:49 src/Widgets/LocaleView.vala:40
-#, fuzzy
 msgid "Install Language"
 msgstr "Installera språk"
 
 #: src/Widgets/InstallDialog.vala:61
-#, fuzzy, c-format
+#, c-format
 msgid "Install %s"
-msgstr "Installerar %s"
+msgstr "Installera %s"
 
 #: src/Widgets/InstallDialog.vala:98
-#, fuzzy
-#| msgid "Install language"
 msgid "Couldn't install language pack"
-msgstr "Installera språk"
+msgstr "Det gick inte att installera språkpaketet"
 
 #: src/Widgets/LanguageListBox.vala:34
 msgid "Installed Languages"
@@ -80,33 +77,27 @@ msgstr "Installerade språk"
 
 #: src/Widgets/LanguageListBox.vala:141
 msgid "Currently active language"
-msgstr "Nuvarande aktivt språk"
+msgstr "Aktuellt aktivt språk"
 
 #: src/Widgets/LocaleView.vala:53
 msgid "Remove language"
 msgstr "Ta bort språk"
 
 #: src/Widgets/LocaleView.vala:135
-#, fuzzy
-#| msgid "Remove language"
 msgid "Couldn't remove language pack"
-msgstr "Ta bort språk"
+msgstr "Det gick inte att ta bort språkpaketet"
 
 #: src/Widgets/LocaleSetting.vala:83
-#, fuzzy
-#| msgid "Keyboard Settings…"
 msgid "Keyboard layout settings…"
-msgstr "Tangentbordsinställningar…"
+msgstr "Inställningar för tangentbordslayout…"
 
 #: src/Widgets/LocaleSetting.vala:90
-#, fuzzy
-#| msgid "Keyboard Settings…"
 msgid "Time format settings…"
-msgstr "Tangentbordsinställningar…"
+msgstr "Inställningar för tidsformat…"
 
 #: src/Widgets/LocaleSetting.vala:113
 msgid "Preview"
-msgstr ""
+msgstr "Förhandsvisa"
 
 #: src/Widgets/LocaleSetting.vala:121
 msgid "Language support is not installed completely"
@@ -130,7 +121,7 @@ msgstr "Fahrenheit"
 
 #: src/Widgets/LocaleSetting.vala:156
 msgid "Automatic, based on locale"
-msgstr ""
+msgstr "Automatiskt, baserat på språk"
 
 #: src/Widgets/LocaleSetting.vala:209
 msgid "Set Language"
@@ -146,14 +137,12 @@ msgstr ""
 "Ställ in språk för inloggningsskärmen, gästkontot och nya användarkonton"
 
 #: src/Widgets/LocaleSetting.vala:232
-#, fuzzy
-#| msgid "Installing missing language"
 msgid "Couldn't install missing language packs"
-msgstr "Installerar saknat språk"
+msgstr "Det gick inte att installera saknade språkpaket"
 
 #: src/Widgets/LocaleSetting.vala:411
 msgid "Can't set system locale"
-msgstr ""
+msgstr "Kan inte ställa in systemets språk"
 
 #~ msgid "Time Format"
 #~ msgstr "Tidsformat"
