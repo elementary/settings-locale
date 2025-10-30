@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-21 19:08+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-31 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "locale-plug-extra/sv/>\n"
@@ -25,7 +25,7 @@ msgstr "Språk och regionsinställningar"
 
 #: data/locale.metainfo.xml.in:11
 msgid "Manage languages, and configure region and format"
-msgstr "Hantera språk, samt ställ in region och format"
+msgstr "Hantera språk, ställ in region och format"
 
 #: data/locale.metainfo.xml.in:26
 msgid "elementary, Inc."
@@ -67,8 +67,8 @@ msgstr "Förhindra att fcitx5-paket installeras"
 #: data/locale.metainfo.xml.in:62
 msgid "Add links to other places locale-related settings are managed"
 msgstr ""
-"Lägg till länkar till andra platser där lokalrelaterade inställningar "
-"hanteras"
+"Lägg till länkar till andra platser där lokalanpassningsrelaterade "
+"inställningar hanteras"
 
 #: data/locale.metainfo.xml.in:63
 msgid "Improve screen reader accessibility"
