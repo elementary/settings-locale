@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-21 19:08+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-31 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "locale/sv/>\n"
@@ -26,7 +26,7 @@ msgstr "Språk och region"
 
 #: src/Plug.vala:31
 msgid "Manage languages, and configure region and format"
-msgstr "Hantera språk, samt ställ in region och format"
+msgstr "Hantera språk, ställ in region och format"
 
 #: src/Plug.vala:63 src/Widgets/LocaleSetting.vala:69
 msgid "Region"
