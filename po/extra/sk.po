@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2024-12-11 16:17+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -31,71 +31,73 @@ msgstr "Spravujte jazyky, nastavte oblasť a miestne formáty"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:44
+#: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:47
+#: data/locale.metainfo.xml.in:57
 #, fuzzy
 #| msgid "Improvements:"
 msgid "Minor improvements:"
 msgstr "Vylepšenia:"
 
-#: data/locale.metainfo.xml.in:36
-msgid "More responsive design layout"
-msgstr ""
-
-#: data/locale.metainfo.xml.in:37 data/locale.metainfo.xml.in:49
-#: data/locale.metainfo.xml.in:64 data/locale.metainfo.xml.in:117
+#: data/locale.metainfo.xml.in:36 data/locale.metainfo.xml.in:50
+#: data/locale.metainfo.xml.in:62 data/locale.metainfo.xml.in:77
+#: data/locale.metainfo.xml.in:130
 msgid "Updated translations"
 msgstr "Aktualizované preklady"
 
-#: data/locale.metainfo.xml.in:46
+#: data/locale.metainfo.xml.in:49
+msgid "More responsive design layout"
+msgstr ""
+
+#: data/locale.metainfo.xml.in:59
 msgid "Selected language checkmark now follows system accent color"
 msgstr ""
 
-#: data/locale.metainfo.xml.in:47
+#: data/locale.metainfo.xml.in:60
 msgid "Sidebar position is now remembered"
 msgstr ""
 
-#: data/locale.metainfo.xml.in:48
+#: data/locale.metainfo.xml.in:61
 msgid "Performance improvements"
 msgstr "Zlepšenia výkonu"
 
-#: data/locale.metainfo.xml.in:59
+#: data/locale.metainfo.xml.in:72
 msgid "A big redesign!"
 msgstr ""
 
-#: data/locale.metainfo.xml.in:61
+#: data/locale.metainfo.xml.in:74
 msgid "Prevent fcitx5 packages from being installed"
 msgstr ""
 
-#: data/locale.metainfo.xml.in:62
+#: data/locale.metainfo.xml.in:75
 msgid "Add links to other places locale-related settings are managed"
 msgstr ""
 
-#: data/locale.metainfo.xml.in:63
+#: data/locale.metainfo.xml.in:76
 msgid "Improve screen reader accessibility"
 msgstr ""
 
-#: data/locale.metainfo.xml.in:79 data/locale.metainfo.xml.in:92
-#: data/locale.metainfo.xml.in:101 data/locale.metainfo.xml.in:110
+#: data/locale.metainfo.xml.in:92 data/locale.metainfo.xml.in:105
+#: data/locale.metainfo.xml.in:114 data/locale.metainfo.xml.in:123
 msgid "Fixes:"
 msgstr "Opravy:"
 
-#: data/locale.metainfo.xml.in:81
+#: data/locale.metainfo.xml.in:94
 msgid "Translate authentication dialog description text"
 msgstr "Preklad popisného textu v dialógovom okne overenia"
 
-#: data/locale.metainfo.xml.in:88
+#: data/locale.metainfo.xml.in:101
 msgid "Improvements:"
 msgstr "Vylepšenia:"
 
-#: data/locale.metainfo.xml.in:90
+#: data/locale.metainfo.xml.in:103
 msgid "Central Kurdish is now available as an installable language"
 msgstr "Centrálna kurdčina je teraz dostupná ako inštalovateľný jazyk"
 
-#: data/locale.metainfo.xml.in:94
+#: data/locale.metainfo.xml.in:107
 msgid "Support installation and removal of languages with 3-letter codes"
 msgstr "Podpora inštalácie a odstraňovania jazykov s 3-písmenovými kódmi"
 
-#: data/locale.metainfo.xml.in:103
+#: data/locale.metainfo.xml.in:116
 msgid ""
 "Ensure \"Formats\" dropdown remains correct after installing or removing "
 "languages"
@@ -103,15 +105,15 @@ msgstr ""
 "Zabezpečené, že kontextové menu „Formáty“ bude fungovať správne po "
 "nainštalovaní alebo odstránení jazykov"
 
-#: data/locale.metainfo.xml.in:112
+#: data/locale.metainfo.xml.in:125
 msgid "Support locales with 3-letter codes"
 msgstr "Podpora miest s 3-písmenovými kódmi"
 
-#: data/locale.metainfo.xml.in:114
+#: data/locale.metainfo.xml.in:127
 msgid "Minor updates:"
 msgstr "Menšie aktualizácie:"
 
-#: data/locale.metainfo.xml.in:116
+#: data/locale.metainfo.xml.in:129
 msgid "Better support for non-Ubuntu based distributions"
 msgstr "Lepšia podpora pre distribúcie nezaložené na základe Ubuntu"
 
