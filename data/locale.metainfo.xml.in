@@ -29,6 +29,19 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.0.3" date="2025-11-03" urgency="medium">
+      <description>
+        <p>Minor improvements:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/settings-locale/issues/68">Plug takes a few seconds to load on first launch</issue>
+        <issue url="https://github.com/elementary/settings-locale/issues/135">'Opening flap' animation stops in the middle before continuing</issue>
+      </issues>
+    </release>
+
     <release version="8.0.2" date="2025-05-01" urgency="medium">
       <description>
         <p>Minor improvements:</p>
