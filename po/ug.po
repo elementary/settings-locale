@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2017-01-02 02:59+0000\n"
 "Last-Translator: ablimet <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,21 +35,21 @@ msgstr "فورماتلار: "
 msgid "Temperature"
 msgstr ""
 
-#: src/ProgressDialog.vala:47
+#: src/ProgressDialog.vala:26
 #, fuzzy, c-format
 msgid "Installing %s"
 msgstr "تىلنى ئورنىتىۋاتىدۇ"
 
-#: src/ProgressDialog.vala:50
+#: src/ProgressDialog.vala:29
 #, fuzzy, c-format
 msgid "Removing %s"
 msgstr "تىلنى ئۆچۈرىۋاتىدۇ"
 
-#: src/ProgressDialog.vala:53
+#: src/ProgressDialog.vala:32
 msgid "Installing missing language"
 msgstr "يۈتكەن تىللارنى ئورنىتىۋاتىدۇ"
 
-#: src/ProgressDialog.vala:62 src/Widgets/InstallDialog.vala:47
+#: src/ProgressDialog.vala:42 src/Widgets/InstallDialog.vala:47
 msgid "Cancel"
 msgstr "ئەمەلدىن قالدۇرۇش"
 

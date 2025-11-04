@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -26,21 +26,21 @@ msgstr ""
 msgid "Temperature"
 msgstr ""
 
-#: src/ProgressDialog.vala:47
+#: src/ProgressDialog.vala:26
 #, c-format
 msgid "Installing %s"
 msgstr ""
 
-#: src/ProgressDialog.vala:50
+#: src/ProgressDialog.vala:29
 #, c-format
 msgid "Removing %s"
 msgstr ""
 
-#: src/ProgressDialog.vala:53
+#: src/ProgressDialog.vala:32
 msgid "Installing missing language"
 msgstr ""
 
-#: src/ProgressDialog.vala:62 src/Widgets/InstallDialog.vala:47
+#: src/ProgressDialog.vala:42 src/Widgets/InstallDialog.vala:47
 msgid "Cancel"
 msgstr ""
 
