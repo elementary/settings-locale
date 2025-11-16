@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2025-03-17 11:10+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -40,21 +40,21 @@ msgstr "格式"
 msgid "Temperature"
 msgstr "溫度"
 
-#: src/ProgressDialog.vala:47
+#: src/ProgressDialog.vala:26
 #, c-format
 msgid "Installing %s"
 msgstr "正在安裝 %s"
 
-#: src/ProgressDialog.vala:50
+#: src/ProgressDialog.vala:29
 #, c-format
 msgid "Removing %s"
 msgstr "正在移除 %s"
 
-#: src/ProgressDialog.vala:53
+#: src/ProgressDialog.vala:32
 msgid "Installing missing language"
 msgstr "正在安裝需要補缺的語言"
 
-#: src/ProgressDialog.vala:62 src/Widgets/InstallDialog.vala:47
+#: src/ProgressDialog.vala:42 src/Widgets/InstallDialog.vala:47
 msgid "Cancel"
 msgstr "取消"
 

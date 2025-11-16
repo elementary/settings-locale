@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2025-02-11 19:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
@@ -40,21 +40,21 @@ msgstr "Formater"
 msgid "Temperature"
 msgstr "Temperatur"
 
-#: src/ProgressDialog.vala:47
+#: src/ProgressDialog.vala:26
 #, c-format
 msgid "Installing %s"
 msgstr "Installerer %s"
 
-#: src/ProgressDialog.vala:50
+#: src/ProgressDialog.vala:29
 #, c-format
 msgid "Removing %s"
 msgstr "Fjerner %s"
 
-#: src/ProgressDialog.vala:53
+#: src/ProgressDialog.vala:32
 msgid "Installing missing language"
 msgstr "Installerer manglende sprog"
 
-#: src/ProgressDialog.vala:62 src/Widgets/InstallDialog.vala:47
+#: src/ProgressDialog.vala:42 src/Widgets/InstallDialog.vala:47
 msgid "Cancel"
 msgstr "Annuller"
 

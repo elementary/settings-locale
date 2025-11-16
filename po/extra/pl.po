@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2024-12-24 07:15+0000\n"
 "Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,69 +32,71 @@ msgstr "Zarządzaj językami, konfiguruj region i formaty"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:44
+#: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:47
+#: data/locale.metainfo.xml.in:57
 msgid "Minor improvements:"
 msgstr "Pomniejsze ulepszenia:"
 
-#: data/locale.metainfo.xml.in:36
-msgid "More responsive design layout"
-msgstr ""
-
-#: data/locale.metainfo.xml.in:37 data/locale.metainfo.xml.in:49
-#: data/locale.metainfo.xml.in:64 data/locale.metainfo.xml.in:117
+#: data/locale.metainfo.xml.in:36 data/locale.metainfo.xml.in:50
+#: data/locale.metainfo.xml.in:62 data/locale.metainfo.xml.in:77
+#: data/locale.metainfo.xml.in:130
 msgid "Updated translations"
 msgstr "Zaktualizowane tłumaczenia"
 
-#: data/locale.metainfo.xml.in:46
+#: data/locale.metainfo.xml.in:49
+msgid "More responsive design layout"
+msgstr ""
+
+#: data/locale.metainfo.xml.in:59
 msgid "Selected language checkmark now follows system accent color"
 msgstr "Ikona zaznaczenia języka jest teraz zgodna z kolorem akcentu systemu"
 
-#: data/locale.metainfo.xml.in:47
+#: data/locale.metainfo.xml.in:60
 msgid "Sidebar position is now remembered"
 msgstr "Pozycja panelu bocznego jest teraz zapamiętywana"
 
-#: data/locale.metainfo.xml.in:48
+#: data/locale.metainfo.xml.in:61
 msgid "Performance improvements"
 msgstr "Zwiększona wydajność"
 
-#: data/locale.metainfo.xml.in:59
+#: data/locale.metainfo.xml.in:72
 msgid "A big redesign!"
 msgstr "Wielkie przeprojektowanie!"
 
-#: data/locale.metainfo.xml.in:61
+#: data/locale.metainfo.xml.in:74
 msgid "Prevent fcitx5 packages from being installed"
 msgstr "Pakiety fcitx5 nie będą już instalowane"
 
-#: data/locale.metainfo.xml.in:62
+#: data/locale.metainfo.xml.in:75
 msgid "Add links to other places locale-related settings are managed"
 msgstr "Dodano linki do innych miejsc gdzie zarządzane są ustawienia języka"
 
-#: data/locale.metainfo.xml.in:63
+#: data/locale.metainfo.xml.in:76
 msgid "Improve screen reader accessibility"
 msgstr "Poprawiono dostępność czytnika ekranu"
 
-#: data/locale.metainfo.xml.in:79 data/locale.metainfo.xml.in:92
-#: data/locale.metainfo.xml.in:101 data/locale.metainfo.xml.in:110
+#: data/locale.metainfo.xml.in:92 data/locale.metainfo.xml.in:105
+#: data/locale.metainfo.xml.in:114 data/locale.metainfo.xml.in:123
 msgid "Fixes:"
 msgstr "Poprawki:"
 
-#: data/locale.metainfo.xml.in:81
+#: data/locale.metainfo.xml.in:94
 msgid "Translate authentication dialog description text"
 msgstr "Przetłumaczono opis okna uwierzytelniania"
 
-#: data/locale.metainfo.xml.in:88
+#: data/locale.metainfo.xml.in:101
 msgid "Improvements:"
 msgstr "Ulepszenia:"
 
-#: data/locale.metainfo.xml.in:90
+#: data/locale.metainfo.xml.in:103
 msgid "Central Kurdish is now available as an installable language"
 msgstr "Centralny Kurdyjski jest teraz dostępny jako język do zainstalowania"
 
-#: data/locale.metainfo.xml.in:94
+#: data/locale.metainfo.xml.in:107
 msgid "Support installation and removal of languages with 3-letter codes"
 msgstr "Wsparcie dla instalacji i usuwania języków z trzyliterowymi kodami"
 
-#: data/locale.metainfo.xml.in:103
+#: data/locale.metainfo.xml.in:116
 msgid ""
 "Ensure \"Formats\" dropdown remains correct after installing or removing "
 "languages"
@@ -102,15 +104,15 @@ msgstr ""
 "Upewniono się, że menu „Formaty” działa poprawnie po instalacji i usunięciu "
 "języków"
 
-#: data/locale.metainfo.xml.in:112
+#: data/locale.metainfo.xml.in:125
 msgid "Support locales with 3-letter codes"
 msgstr "Wsparcie dla języków z trzyliterowymi kodami"
 
-#: data/locale.metainfo.xml.in:114
+#: data/locale.metainfo.xml.in:127
 msgid "Minor updates:"
 msgstr "Mniejsze aktualizacje:"
 
-#: data/locale.metainfo.xml.in:116
+#: data/locale.metainfo.xml.in:129
 msgid "Better support for non-Ubuntu based distributions"
 msgstr "Lepsze wsparcie dla dystrybucji niebazujących na Ubuntu"
 

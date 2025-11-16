@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2020-10-01 22:14+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Luxembourgish <https://l10n.elementary.io/projects/"
@@ -35,21 +35,21 @@ msgstr ""
 msgid "Temperature"
 msgstr ""
 
-#: src/ProgressDialog.vala:47
+#: src/ProgressDialog.vala:26
 #, c-format
 msgid "Installing %s"
 msgstr ""
 
-#: src/ProgressDialog.vala:50
+#: src/ProgressDialog.vala:29
 #, c-format
 msgid "Removing %s"
 msgstr ""
 
-#: src/ProgressDialog.vala:53
+#: src/ProgressDialog.vala:32
 msgid "Installing missing language"
 msgstr ""
 
-#: src/ProgressDialog.vala:62 src/Widgets/InstallDialog.vala:47
+#: src/ProgressDialog.vala:42 src/Widgets/InstallDialog.vala:47
 msgid "Cancel"
 msgstr "Ofbriechen"
 

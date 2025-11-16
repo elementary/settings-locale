@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-21 19:08+0000\n"
+"POT-Creation-Date: 2025-11-04 18:14+0000\n"
 "PO-Revision-Date: 2025-05-05 13:04+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementaryos.org/projects/settings/"
@@ -31,74 +31,76 @@ msgstr "Gestioneu les llengües i configureu-ne la regió i el format."
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:44
+#: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:47
+#: data/locale.metainfo.xml.in:57
 msgid "Minor improvements:"
 msgstr "Millores menors:"
 
-#: data/locale.metainfo.xml.in:36
-msgid "More responsive design layout"
-msgstr "Disseny més sensible"
-
-#: data/locale.metainfo.xml.in:37 data/locale.metainfo.xml.in:49
-#: data/locale.metainfo.xml.in:64 data/locale.metainfo.xml.in:117
+#: data/locale.metainfo.xml.in:36 data/locale.metainfo.xml.in:50
+#: data/locale.metainfo.xml.in:62 data/locale.metainfo.xml.in:77
+#: data/locale.metainfo.xml.in:130
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/locale.metainfo.xml.in:46
+#: data/locale.metainfo.xml.in:49
+msgid "More responsive design layout"
+msgstr "Disseny més sensible"
+
+#: data/locale.metainfo.xml.in:59
 msgid "Selected language checkmark now follows system accent color"
 msgstr ""
 "La marca de verificació de la llengua seleccionada ara segueix el color "
 "d'accent del sistema."
 
-#: data/locale.metainfo.xml.in:47
+#: data/locale.metainfo.xml.in:60
 msgid "Sidebar position is now remembered"
 msgstr "Ara es recorda la posició de la barra lateral."
 
-#: data/locale.metainfo.xml.in:48
+#: data/locale.metainfo.xml.in:61
 msgid "Performance improvements"
 msgstr "Millores de rendiment"
 
-#: data/locale.metainfo.xml.in:59
+#: data/locale.metainfo.xml.in:72
 msgid "A big redesign!"
 msgstr "Un gran redisseny!"
 
-#: data/locale.metainfo.xml.in:61
+#: data/locale.metainfo.xml.in:74
 msgid "Prevent fcitx5 packages from being installed"
 msgstr "Evita que els paquets fcitx5 s'instal·lin"
 
-#: data/locale.metainfo.xml.in:62
+#: data/locale.metainfo.xml.in:75
 msgid "Add links to other places locale-related settings are managed"
 msgstr ""
 "Addició d'enllaços a altres llocs on es gestiona la configuració relacionada "
 "amb la configuració regional"
 
-#: data/locale.metainfo.xml.in:63
+#: data/locale.metainfo.xml.in:76
 msgid "Improve screen reader accessibility"
 msgstr "Millora de l'accessibilitat del lector de pantalla"
 
-#: data/locale.metainfo.xml.in:79 data/locale.metainfo.xml.in:92
-#: data/locale.metainfo.xml.in:101 data/locale.metainfo.xml.in:110
+#: data/locale.metainfo.xml.in:92 data/locale.metainfo.xml.in:105
+#: data/locale.metainfo.xml.in:114 data/locale.metainfo.xml.in:123
 msgid "Fixes:"
 msgstr "Correccions:"
 
-#: data/locale.metainfo.xml.in:81
+#: data/locale.metainfo.xml.in:94
 msgid "Translate authentication dialog description text"
 msgstr "Traducció del text de descripció del diàleg d'autenticació"
 
-#: data/locale.metainfo.xml.in:88
+#: data/locale.metainfo.xml.in:101
 msgid "Improvements:"
 msgstr "Millores:"
 
-#: data/locale.metainfo.xml.in:90
+#: data/locale.metainfo.xml.in:103
 msgid "Central Kurdish is now available as an installable language"
 msgstr "El kurd central ja està disponible com a idioma instal·lable."
 
-#: data/locale.metainfo.xml.in:94
+#: data/locale.metainfo.xml.in:107
 msgid "Support installation and removal of languages with 3-letter codes"
 msgstr ""
 "Suport per a la instal·lació i eliminació d'idiomes amb codis de 3 lletres"
 
-#: data/locale.metainfo.xml.in:103
+#: data/locale.metainfo.xml.in:116
 msgid ""
 "Ensure \"Formats\" dropdown remains correct after installing or removing "
 "languages"
@@ -106,15 +108,15 @@ msgstr ""
 "S'assegura que el menú desplegable \"Formats\" segueix sent correcte després "
 "d'instal·lar o eliminar idiomes."
 
-#: data/locale.metainfo.xml.in:112
+#: data/locale.metainfo.xml.in:125
 msgid "Support locales with 3-letter codes"
 msgstr "S'admeten codis de llengua de tres lletres."
 
-#: data/locale.metainfo.xml.in:114
+#: data/locale.metainfo.xml.in:127
 msgid "Minor updates:"
 msgstr "Actualitzacions menors:"
 
-#: data/locale.metainfo.xml.in:116
+#: data/locale.metainfo.xml.in:129
 msgid "Better support for non-Ubuntu based distributions"
 msgstr "Millor suport per a distribucions no basades en l'Ubuntu"
 
