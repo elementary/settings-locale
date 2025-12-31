@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 18:14+0000\n"
-"PO-Revision-Date: 2025-04-19 22:55+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
-"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/locale-"
-"plug-extra/nl/>\n"
+"PO-Revision-Date: 2026-01-01 15:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
+"locale-plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/locale.metainfo.xml.in:10
 msgid "Language &amp; Region Settings"
@@ -44,7 +44,7 @@ msgstr "Bijgewerkte vertalingen"
 
 #: data/locale.metainfo.xml.in:49
 msgid "More responsive design layout"
-msgstr ""
+msgstr "Meer responsief lay-outontwerp"
 
 #: data/locale.metainfo.xml.in:59
 msgid "Selected language checkmark now follows system accent color"
@@ -69,6 +69,8 @@ msgstr "Voorkom dat fcitx5 pakketten worden geïnstalleerd"
 #: data/locale.metainfo.xml.in:75
 msgid "Add links to other places locale-related settings are managed"
 msgstr ""
+"Voeg links toe naar andere plaatsen waar locatiegebonden instellingen worden "
+"beheerd"
 
 #: data/locale.metainfo.xml.in:76
 msgid "Improve screen reader accessibility"
@@ -94,12 +96,15 @@ msgstr "Centraal Koerds is nu beschikbaar als een te installeren taal"
 #: data/locale.metainfo.xml.in:107
 msgid "Support installation and removal of languages with 3-letter codes"
 msgstr ""
+"Ondersteuning voor installatie en verwijdering voor talen met 3-lettercodes"
 
 #: data/locale.metainfo.xml.in:116
 msgid ""
 "Ensure \"Formats\" dropdown remains correct after installing or removing "
 "languages"
 msgstr ""
+"Ervoor zorgen dat het keuzemenu \"Formaten\" correct blijft na het "
+"installeren of verwijderen van talen"
 
 #: data/locale.metainfo.xml.in:125
 msgid "Support locales with 3-letter codes"
