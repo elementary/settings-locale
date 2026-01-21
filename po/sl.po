@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 18:14+0000\n"
-"PO-Revision-Date: 2025-02-11 19:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-locale/sl/>\n"
+"PO-Revision-Date: 2026-01-22 21:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
+"locale/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-12-06 05:26+0000\n"
 
 #: src/Plug.vala:30
@@ -69,10 +69,8 @@ msgid "Install %s"
 msgstr "Namesti %s"
 
 #: src/Widgets/InstallDialog.vala:98
-#, fuzzy
-#| msgid "Install language"
 msgid "Couldn't install language pack"
-msgstr "Namesti jezik"
+msgstr "Ni bilo mogoče namestiti jezikovnega paketa"
 
 #: src/Widgets/LanguageListBox.vala:34
 msgid "Installed Languages"
@@ -87,26 +85,20 @@ msgid "Remove language"
 msgstr "Izbriši jezik"
 
 #: src/Widgets/LocaleView.vala:135
-#, fuzzy
-#| msgid "Remove language"
 msgid "Couldn't remove language pack"
-msgstr "Izbriši jezik"
+msgstr "Ni bilo mogoče odstraniti jezikovnega paketa"
 
 #: src/Widgets/LocaleSetting.vala:83
-#, fuzzy
-#| msgid "Keyboard Settings…"
 msgid "Keyboard layout settings…"
-msgstr "Nastavitve tipkovnice…"
+msgstr "Nastavitve razporeda tipkovnice…"
 
 #: src/Widgets/LocaleSetting.vala:90
-#, fuzzy
-#| msgid "Keyboard Settings…"
 msgid "Time format settings…"
-msgstr "Nastavitve tipkovnice…"
+msgstr "Nastavitve zapisa časa…"
 
 #: src/Widgets/LocaleSetting.vala:113
 msgid "Preview"
-msgstr ""
+msgstr "Predogled"
 
 #: src/Widgets/LocaleSetting.vala:121
 msgid "Language support is not installed completely"
@@ -130,7 +122,7 @@ msgstr "°F"
 
 #: src/Widgets/LocaleSetting.vala:156
 msgid "Automatic, based on locale"
-msgstr ""
+msgstr "Samodejno, glede na območje"
 
 #: src/Widgets/LocaleSetting.vala:209
 msgid "Set Language"
@@ -146,14 +138,12 @@ msgstr ""
 "Nastavi jezik za prijavni zaslon, račun gosta in račun novih uporabnikov"
 
 #: src/Widgets/LocaleSetting.vala:232
-#, fuzzy
-#| msgid "Installing missing language"
 msgid "Couldn't install missing language packs"
-msgstr "Nameščanje manjkajočega jezika"
+msgstr "Ni bilo mogoče namestiti manjkajočih jezikovnih paketov"
 
 #: src/Widgets/LocaleSetting.vala:411
 msgid "Can't set system locale"
-msgstr ""
+msgstr "Ni bilo mogoče nastaviti sistemskega jezika"
 
 #~ msgid "Time Format"
 #~ msgstr "Oblika za čas"
