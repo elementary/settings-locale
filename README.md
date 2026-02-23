@@ -11,9 +11,9 @@ You'll need the following dependencies:
 * libibus-1.0-dev
 * libgnome-desktop-4-dev
 * libgranite-7-dev
+* libpolkit-gobject-1-dev
 * libswitchboard-3-dev
 * meson >= 0.58.0
-* policykit-1
 * valac
 
 Run `meson` to configure the build environment and then `ninja` to build
