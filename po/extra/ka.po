@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:14+0000\n"
+"POT-Creation-Date: 2026-03-22 15:58+0000\n"
 "PO-Revision-Date: 2024-12-11 16:17+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 5.8.4\n"
 
 #: data/locale.metainfo.xml.in:10
-msgid "Language &amp; Region Settings"
+#, fuzzy
+#| msgid "Language &amp; Region Settings"
+msgid "Language & Region Settings"
 msgstr "ენისა და რეგიონის მორგება"
 
 #: data/locale.metainfo.xml.in:11
