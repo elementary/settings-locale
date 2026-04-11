@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-22 15:58+0000\n"
-"PO-Revision-Date: 2025-08-30 22:55+0000\n"
+"PO-Revision-Date: 2026-04-12 00:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "locale-plug-extra/ja/>\n"
@@ -20,8 +20,6 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: data/locale.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Language &amp; Region Settings"
 msgid "Language & Region Settings"
 msgstr "言語と地域設定"
 
