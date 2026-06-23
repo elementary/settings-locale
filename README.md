@@ -7,6 +7,7 @@
 
 You'll need the following dependencies:
 
+* libadwaita-1-dev >= 1.3
 * libaccountsservice-dev
 * libibus-1.0-dev
 * libgnome-desktop-4-dev
