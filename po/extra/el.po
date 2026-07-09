@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-22 15:58+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-10 15:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/locale-"
 "plug-extra/el/>\n"
@@ -34,7 +34,7 @@ msgstr "elementary, Inc."
 #: data/locale.metainfo.xml.in:34 data/locale.metainfo.xml.in:47
 #: data/locale.metainfo.xml.in:57
 msgid "Minor improvements:"
-msgstr ""
+msgstr "Μικρές βελτιώσεις:"
 
 #: data/locale.metainfo.xml.in:36 data/locale.metainfo.xml.in:50
 #: data/locale.metainfo.xml.in:62 data/locale.metainfo.xml.in:77
@@ -44,7 +44,7 @@ msgstr "Ενημερωμένες μεταφράσεις"
 
 #: data/locale.metainfo.xml.in:49
 msgid "More responsive design layout"
-msgstr ""
+msgstr "Πιο αποκρίσιμη διάταξη σχεδιασμού"
 
 #: data/locale.metainfo.xml.in:59
 msgid "Selected language checkmark now follows system accent color"
