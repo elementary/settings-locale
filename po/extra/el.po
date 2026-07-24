@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-22 15:58+0000\n"
-"PO-Revision-Date: 2026-07-10 15:01+0000\n"
+"PO-Revision-Date: 2026-07-25 22:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/locale-"
 "plug-extra/el/>\n"
@@ -60,7 +60,7 @@ msgstr "Βελτιώσεις επιδόσεων"
 
 #: data/locale.metainfo.xml.in:72
 msgid "A big redesign!"
-msgstr ""
+msgstr "Μεγάλος ανασχεδιασμός!"
 
 #: data/locale.metainfo.xml.in:74
 msgid "Prevent fcitx5 packages from being installed"
