@@ -17,8 +17,8 @@
 namespace SwitchboardPlugLocale.Widgets {
     public class LocaleSetting : Switchboard.SettingsPage {
         private Gtk.Button set_button;
-        private Gtk.InfoBar missing_lang_infobar;
-        private Gtk.InfoBar restart_infobar;
+        private Adw.Banner missing_lang_infobar;
+        private Adw.Banner restart_infobar;
         private Gtk.DropDown format_dropdown;
         private Gtk.DropDown region_dropdown;
         private GLib.ListStore format_list;
@@ -118,22 +118,13 @@ namespace SwitchboardPlugLocale.Widgets {
             preview_box.append (preview_label);
             preview_box.append (preview);
 
-            var missing_label = new Gtk.Label (_("Language support is not installed completely"));
-
-            missing_lang_infobar = new Gtk.InfoBar () {
-                message_type = WARNING,
-                revealed = false
+            missing_lang_infobar = new Adw.Banner (_("Language support is not installed completely")) {
+                button_label = _("Complete Installation")
             };
-            missing_lang_infobar.add_button (_("Complete Installation"), 0);
-            missing_lang_infobar.add_child (missing_label);
             missing_lang_infobar.add_css_class (Granite.STYLE_CLASS_FRAME);
             missing_lang_infobar.add_css_class ("infobar-margin");
 
-            restart_infobar = new Gtk.InfoBar () {
-                message_type = WARNING,
-                revealed = false
-            };
-            restart_infobar.add_child (new Gtk.Label (_("Some changes will not take effect until you log out")));
+            restart_infobar = new Adw.Banner (_("Some changes will not take effect until you log out"));
             restart_infobar.add_css_class (Granite.STYLE_CLASS_FRAME);
             restart_infobar.add_css_class ("infobar-margin");
 
@@ -215,7 +206,7 @@ namespace SwitchboardPlugLocale.Widgets {
 
             unowned var installer = Installer.UbuntuInstaller.get_default ();
 
-            missing_lang_infobar.response.connect (() => {
+            missing_lang_infobar.button_clicked.connect (() => {
                 missing_lang_infobar.revealed = false;
 
                 installer.install_missing_languages.begin ((obj, res) => {
