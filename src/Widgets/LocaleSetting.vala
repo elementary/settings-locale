@@ -336,12 +336,16 @@ namespace SwitchboardPlugLocale.Widgets {
             var user_locale = lm.get_user_language ();
 
             foreach (var locale in locales) {
-                string code;
+                string? code;
                 if (!Gnome.Languages.parse_locale (locale, null, out code, null, null)) {
                     continue;
                 }
 
-                var region_string = Utils.translate_region (language, code, locale);
+                // Some locale like "eo" (Esperanto) does not have country code
+                string region_string = _("No Region");
+                if (code != null) {
+                    region_string = Utils.translate_region (language, code, locale);
+                }
 
                 var locale_object = new Locale (region_string, locale);
 
