@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-22 15:58+0000\n"
+"POT-Creation-Date: 2026-08-13 09:43+0000\n"
 "PO-Revision-Date: 2025-02-12 15:29+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -141,7 +141,14 @@ msgstr ""
 msgid "Couldn't install missing language packs"
 msgstr "No s'han pogut instal·lar els paquets de llengua que manquen."
 
-#: src/Widgets/LocaleSetting.vala:411
+#. Some locale like "eo" (Esperanto) does not have country code
+#: src/Widgets/LocaleSetting.vala:345
+#, fuzzy
+#| msgid "Region"
+msgid "No Region"
+msgstr "Regió"
+
+#: src/Widgets/LocaleSetting.vala:415
 msgid "Can't set system locale"
 msgstr "No es pot establir la configuració regional del sistema."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-22 15:58+0000\n"
+"POT-Creation-Date: 2026-08-13 09:43+0000\n"
 "PO-Revision-Date: 2026-03-22 15:55+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementaryos.org/projects/settings/"
@@ -139,7 +139,14 @@ msgstr "Aseta kieli kirjautumisnäkymään, vierastilille ja uusille käyttäjil
 msgid "Couldn't install missing language packs"
 msgstr "Puuttuvia kielipaketteja ei voitu asentaa"
 
-#: src/Widgets/LocaleSetting.vala:411
+#. Some locale like "eo" (Esperanto) does not have country code
+#: src/Widgets/LocaleSetting.vala:345
+#, fuzzy
+#| msgid "Region"
+msgid "No Region"
+msgstr "Alue"
+
+#: src/Widgets/LocaleSetting.vala:415
 msgid "Can't set system locale"
 msgstr "Järjestelmän maa-asetustoa ei voitu asettaa"
 

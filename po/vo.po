@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-22 15:58+0000\n"
+"POT-Creation-Date: 2026-08-13 09:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
@@ -124,6 +124,11 @@ msgstr ""
 msgid "Couldn't install missing language packs"
 msgstr ""
 
-#: src/Widgets/LocaleSetting.vala:411
+#. Some locale like "eo" (Esperanto) does not have country code
+#: src/Widgets/LocaleSetting.vala:345
+msgid "No Region"
+msgstr ""
+
+#: src/Widgets/LocaleSetting.vala:415
 msgid "Can't set system locale"
 msgstr ""

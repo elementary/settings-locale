@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-22 15:58+0000\n"
+"POT-Creation-Date: 2026-08-13 09:43+0000\n"
 "PO-Revision-Date: 2025-03-08 12:45+0000\n"
 "Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/settings/"
@@ -140,7 +140,14 @@ msgstr "Ustaw język ekranu logowania, konta gościa i nowych kont użytkownikó
 msgid "Couldn't install missing language packs"
 msgstr "Nie udało się zainstalować brakujących paczek językowych"
 
-#: src/Widgets/LocaleSetting.vala:411
+#. Some locale like "eo" (Esperanto) does not have country code
+#: src/Widgets/LocaleSetting.vala:345
+#, fuzzy
+#| msgid "Region"
+msgid "No Region"
+msgstr "Region"
+
+#: src/Widgets/LocaleSetting.vala:415
 msgid "Can't set system locale"
 msgstr "Nie można ustawić języka systemu"
 

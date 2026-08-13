@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-22 15:58+0000\n"
+"POT-Creation-Date: 2026-08-13 09:43+0000\n"
 "PO-Revision-Date: 2016-07-06 15:47+0000\n"
 "Last-Translator: yavinfour <anjelo.passionist@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,7 +143,13 @@ msgstr ""
 msgid "Couldn't install missing language packs"
 msgstr "Ini-install ang nawawalang wika"
 
-#: src/Widgets/LocaleSetting.vala:411
+#. Some locale like "eo" (Esperanto) does not have country code
+#: src/Widgets/LocaleSetting.vala:345
+#, fuzzy
+msgid "No Region"
+msgstr "Rehiyon: "
+
+#: src/Widgets/LocaleSetting.vala:415
 msgid "Can't set system locale"
 msgstr ""
 

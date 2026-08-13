@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-22 15:58+0000\n"
+"POT-Creation-Date: 2026-08-13 09:43+0000\n"
 "PO-Revision-Date: 2015-07-12 04:22+0000\n"
 "Last-Translator: Ismael Cormier <ismael.cormier@outlook.com>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
@@ -137,6 +137,11 @@ msgstr ""
 msgid "Couldn't install missing language packs"
 msgstr ""
 
-#: src/Widgets/LocaleSetting.vala:411
+#. Some locale like "eo" (Esperanto) does not have country code
+#: src/Widgets/LocaleSetting.vala:345
+msgid "No Region"
+msgstr ""
+
+#: src/Widgets/LocaleSetting.vala:415
 msgid "Can't set system locale"
 msgstr ""
