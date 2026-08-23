@@ -65,6 +65,9 @@ namespace SwitchboardPlugLocale.Widgets {
         }
 
         public void reload_languages (string format) {
+            // Retrieve a copy of current locale string
+            string current_format = Intl.setlocale (LocaleCategory.ALL, null);
+
             Intl.setlocale (LocaleCategory.ALL, format);
 
             var date = new DateTime.now_local ();
@@ -77,6 +80,9 @@ namespace SwitchboardPlugLocale.Widgets {
             time_label.label = date.format ("%X");
             currency_label.label = (string) currency;
             number_label.label = "%'.2f".printf (1234.56);
+
+            // Set locale back
+            Intl.setlocale (LocaleCategory.ALL, current_format);
         }
     }
 }
