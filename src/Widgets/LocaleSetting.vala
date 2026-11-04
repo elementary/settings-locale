@@ -208,7 +208,7 @@ namespace SwitchboardPlugLocale.Widgets {
 
             set_button = add_button (_("Set Language"));
             set_button.sensitive = false;
-            set_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+            set_button.add_css_class (Granite.CssClass.SUGGESTED);
 
             var set_system_button = add_button (_("Set System Language"));
             set_system_button.tooltip_text = _("Set language for login screen, guest account and new user accounts");
@@ -459,7 +459,7 @@ namespace SwitchboardPlugLocale.Widgets {
                 var image = new Gtk.Image.from_icon_name (icon_name) {
                     pixel_size = 16
                 };
-                image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+                image.add_css_class (Granite.CssClass.ACCENT);
                 image.add_css_class (color);
 
                 var left_label = new Gtk.Label (label_string) {

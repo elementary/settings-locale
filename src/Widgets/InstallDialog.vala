@@ -34,9 +34,9 @@ public class SwitchboardPlugLocale.Widgets.InstallDialog : Granite.Dialog {
         list_box.set_sort_func ((Gtk.ListBoxSortFunc) sort_function);
 
         var scrolled = new Gtk.ScrolledWindow () {
-            child = list_box
+            child = list_box,
+            has_frame = true
         };
-        scrolled.add_css_class (Granite.STYLE_CLASS_FRAME);
 
         var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12);
         box.append (search_entry);
@@ -48,7 +48,7 @@ public class SwitchboardPlugLocale.Widgets.InstallDialog : Granite.Dialog {
 
         var button_add = (Gtk.Button)add_button (_("Install Language"), Gtk.ResponseType.ACCEPT);
         button_add.sensitive = false;
-        button_add.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        button_add.add_css_class (Granite.CssClass.SUGGESTED);
 
         load_languagelist ();
 

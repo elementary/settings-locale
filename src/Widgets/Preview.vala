@@ -60,8 +60,7 @@ namespace SwitchboardPlugLocale.Widgets {
 
             attach (date_time_label, 0, 0);
             attach (box, 0, 1);
-            add_css_class (Granite.STYLE_CLASS_CARD);
-            add_css_class (Granite.STYLE_CLASS_ROUNDED);
+            add_css_class (Granite.CssClass.CARD);
         }
 
         public void reload_languages (string format) {
