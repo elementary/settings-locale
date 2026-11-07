@@ -23,6 +23,7 @@ namespace SwitchboardPlugLocale.Widgets {
         private Gtk.DropDown region_dropdown;
         private GLib.ListStore format_list;
         private GLib.ListStore locale_list;
+        private Gee.ArrayList<string>? format_locales;
 
         private LocaleManager lm;
         private Preview preview;
@@ -54,7 +55,10 @@ namespace SwitchboardPlugLocale.Widgets {
                 hexpand = true,
                 search_match_mode = SUBSTRING
             };
-            region_dropdown.notify["selected"].connect (compare);
+            region_dropdown.notify["selected"].connect (() => {
+                reload_formats (format_locales);
+                compare ();
+            });
 
             format_dropdown = new Gtk.DropDown (format_list, null) {
                 enable_search = true,
@@ -365,6 +369,7 @@ namespace SwitchboardPlugLocale.Widgets {
 
             region_dropdown.sensitive = locale_list.n_items > 1;
 
+            reload_formats (format_locales);
             compare ();
         }
 
@@ -373,11 +378,12 @@ namespace SwitchboardPlugLocale.Widgets {
         }
 
         public void reload_formats (Gee.ArrayList<string>? locales) {
+            format_locales = locales;
             format_list.remove_all ();
             var user_format = lm.get_user_format ();
 
             foreach (var locale in locales) {
-                string country = Gnome.Languages.get_country_from_locale (locale, null);
+                string country = Gnome.Languages.get_country_from_locale (locale, get_selected_locale ());
 
                 if (country != null) {
                     var locale_object = new Locale (country, locale);
