@@ -132,6 +132,7 @@ namespace SwitchboardPlugLocale {
                 yield file.load_contents_async (null, out data, null);
             } catch (Error e) {
                 warning (e.message);
+                return default_regions;
             }
 
             string contents = (string)data;
