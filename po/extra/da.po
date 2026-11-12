@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-13 09:43+0000\n"
-"PO-Revision-Date: 2026-10-24 20:04+0000\n"
+"PO-Revision-Date: 2026-11-13 21:04+0000\n"
 "Last-Translator: CodeBeats <nicholai67@hotmail.com>\n"
 "Language-Team: Danish <https://l10n.elementaryos.org/projects/settings/"
 "locale-plug-extra/da/>\n"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: data/locale.metainfo.xml.in:127
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre opdateringer:"
 
 #: data/locale.metainfo.xml.in:129
 msgid "Better support for non-Ubuntu based distributions"
